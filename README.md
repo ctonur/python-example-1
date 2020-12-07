@@ -1,7 +1,7 @@
 # python-example
 Python Flask Framework example for OKD/Openshift S2I demo.
 
-It can be use some following scenerios:
+It can be used in some scenerios as follow:
  - Showing S2I mechanism:
     - How s2i isolates us from building source code, building image itself and pushing it to image registry.
     - It also provides *releated kubernetes objects* such as deployment/deployment config, build config, service, route etc.. So there is no need to write YAMLs anymore.
