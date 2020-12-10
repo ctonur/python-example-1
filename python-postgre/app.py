@@ -12,7 +12,7 @@ postgre_username=os.environ['POSTGRE_USERNAME']
 postgre_password=os.environ['POSTGRE_PASSWORD']
 postgre_dbname=os.environ['POSTGRE_DBNAME']
 
-DB_VERSION = None
+DB_VERSION = ""
 
 @app.route('/')
 def hello_world():
