@@ -34,7 +34,8 @@ def connect():
         
         cur = conn.cursor()
         cur.execute('SELECT version()')
-        global DB_VERSION = str(cur.fetchone())
+        global DB_VERSION
+        DB_VERSION = str(cur.fetchone())
 
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
