@@ -2,7 +2,7 @@ import time,os
 from flask import Flask
 app = Flask(__name__)
 
-hostname = os.environ['HOSTNAME']
+hostname = os.environ.get('HOSTNAME','localhost')
 
 @app.route('/')
 def hello_world():
