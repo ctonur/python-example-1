@@ -6,11 +6,11 @@ app = Flask(__name__)
 hostname = os.environ['HOSTNAME']
 
 # Postgresql bağlantı bilgilerini env'den alalım
-postgre_hostname=os.environ['POSTGRE_HOSTNAME']
-postgre_port=os.environ['POSTGRE_PORT']
-postgre_username=os.environ['POSTGRE_USERNAME']
-postgre_password=os.environ['POSTGRE_PASSWORD']
-postgre_dbname=os.environ['POSTGRE_DBNAME']
+postgre_hostname=os.environ['POSTGRE-HOSTNAME']
+postgre_port=os.environ['POSTGRE-PORT']
+postgre_username=os.environ['POSTGRE-USERNAME']
+postgre_password=os.environ['POSTGRE-PASSWORD']
+postgre_dbname=os.environ['POSTGRE-DBNAME']
 
 DB_VERSION = ""
 
